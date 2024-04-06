@@ -1,0 +1,45 @@
+/*начало видеоуроков*/
+
+.tutorials{
+    margin-bottom: 80px;
+    background: rgba(223, 225, 255, 1);
+    height: 100%;
+    padding: 70px 0 80px;
+
+    @media screen and (max-width: 991px){
+        margin-bottom: 60px;
+    }
+
+    @media screen and (max-width: 576px){
+        padding: 0;
+        background: none;
+    }
+
+    .tutorials__block {
+        @media screen and (max-width: 991px){
+            margin-bottom: 20px;
+        }
+
+        h2{
+            margin-bottom: 28px;
+        }
+        
+        .tutorials__block__br{
+            @media screen and (max-width: 1399px){
+                display: none
+            }
+        }
+    }
+
+    .tutorials__img{
+        max-width: 100%;
+        border-radius: 10px;
+        @media screen and (max-width: 576px){
+            box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+            border-radius: 10px;
+        }
+    }
+}
+
+
+/*конец видеоуроков*/

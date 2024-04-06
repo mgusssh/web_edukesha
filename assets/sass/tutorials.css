@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*начало видеоуроков*/
+.tutorials {
+  margin-bottom: 80px;
+  background: rgb(223, 225, 255);
+  height: 100%;
+  padding: 70px 0 80px;
+}
+@media screen and (max-width: 991px) {
+  .tutorials {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .tutorials {
+    padding: 0;
+    background: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .tutorials .tutorials__block {
+    margin-bottom: 20px;
+  }
+}
+.tutorials .tutorials__block h2 {
+  margin-bottom: 28px;
+}
+@media screen and (max-width: 1399px) {
+  .tutorials .tutorials__block .tutorials__block__br {
+    display: none;
+  }
+}
+.tutorials .tutorials__img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 576px) {
+  .tutorials .tutorials__img {
+    box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+    border-radius: 10px;
+  }
+}
+
+/*конец видеоуроков*//*# sourceMappingURL=tutorials.css.map */

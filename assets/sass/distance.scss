@@ -1,0 +1,59 @@
+/*начало дистанта*/
+
+.distance{
+    background: rgba(223, 225, 255, 1);
+    margin-bottom: 65px;
+    padding: 70px 0 80px;
+
+    .row{
+        align-items: center;
+    }
+
+    .distance__block{
+
+        @media screen and (max-width: 991px){
+            margin-bottom: 20px;
+        }
+
+        p{
+            margin: 14px 0 20px;
+        }   
+    }
+    .distance__card{
+        padding: 30px 50px 30px 30px;
+        display: inline-block; 
+        border-radius: 35px;
+        background: rgba(255, 255, 255, 1);
+
+        p{
+            margin-left: 16px;
+            color: rgba(0, 0, 0, 1);
+
+            span{
+                color: rgba(143, 153, 172, 1);
+            }
+        }
+
+        .distance__card-text{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            color: rgba(0, 0, 0, 1);
+
+            .distance__card-text__br{
+                @media screen and (max-width: 767px){
+                    display: none
+                }
+            }
+        }
+    
+        .distance__card-name{
+            margin-top: 18px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
+/*конец дистанта*/
