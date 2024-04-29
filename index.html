@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>EduKesha</title>
+
 </head>
+
 <body>
-    <header class="header open">
-        <nav class="navigation">
-            <div class="container">
-                <div class="navigation__wrap">
-                    <img src="public/logo.svg" alt="">
-                    <ul class="navigation__list">
-                        <li class="navigation__list-item">
-                            <a href="Возможности" class="navigation__list-item-link class-name">
+    <div class="body-wraper">
+        <header class="header">
+            <nav class="navigation">
+                <div class="container">
+                    <div class="align-items-center navigation__wrap">
+                        <img src="public/logo.svg" alt="">
+                        <ul class="navigation__list_desktop">
+                            <li class="navigation__list-item">
+                                <a href="Возможности" class="navigation__list-item-link class-name">
                                     Возможности
-                            </a>
-                        </li>
-                        <li class="navigation__list-item">
-                            <a href="Как это работает?" class="navigation__list-item-link">
-                                Как это работает?
-                            </a>
-                        </li>
-                    </ul>
-                    <button class="navigation__menu">
-                        <span></span><span></span><span></span>
-                    </button>
-                </div>  
-            </div>    
-        </nav>
-    </header>
+                                </a>
+                            </li>
+                            <li class="navigation__list-item">
+                                <a href="Как это работает?" class="navigation__list-item-link">
+                                    Как это работает?
+                                </a>
+                            </li>
+                        </ul>
+                        <button  class="navigation__burger-btn" id="burger">
+                            <span></span><span></span><span></span>
+                        </button>
+                        <div class="navigation__list_mobile">
+                            <div class="navigation__list">
+                                <ul>
+                                    <li class="navigation__list-item">
+                                        <a href="Возможности" class="navigation__list-item-link class-name">
+                                            Возможности
+                                        </a>
+                                    </li>
+                                    <li class="navigation__list-item">
+                                        <a href="Как это работает?" class="navigation__list-item-link">
+                                            Как это работает?
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="navigation__menu">
+                                    <div class="navigation__menu__street">
+                                        г Сургут, ул Базовая, д. 34, офис 10
+                                        <br> ОГРН 1238600001200
+                                        <br> ИНН 8602309464
+                                    </div>
+                                    <br>
+                                    <div class="navigation__menu__copyright">
+                                        ООО Дотсолюшн © 2023
+                                    </div>
+                                </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+        </header>
+    </div>
+
     <main>
         <section class="servis">
             <div class="container">
@@ -52,7 +87,7 @@
                             <div class="servis__block__button">
                                 <button class="button-primary" type="sumbit">Провести урок</button>
                                 <button class="button-primary-outline" type="submit">
-                                <img class="play__img" src="public/play.svg" alt="">Посмотреть демо</button>
+                                    <img class="play__img" src="public/play.svg" alt="">Посмотреть демо</button>
                             </div>
                         </div>
                     </div>
@@ -73,7 +108,8 @@
                             <h2>
                                 Проводите видеоуроки с целым классом
                             </h2>
-                            <p> Добавьте учеников в класс, запланируйте урок и отправьте им <br class="tutorials__block__br">
+                            <p> Добавьте учеников в класс, запланируйте урок и отправьте им <br
+                                    class="tutorials__block__br">
                                 ссылку. Они смогут заниматься с ноутбука, планшета или <br class="tutorials__block__br">
                                 мобильного телефона. <br>
                                 <br>
@@ -83,7 +119,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-self-center col-12 col-lg-6">
-                            <img class="tutorials__img" src="/public/tutorial.png" alt="">
+                        <img class="tutorials__img" src="/public/tutorial.png" alt="">
                     </div>
                 </div>
             </div>
@@ -98,14 +134,15 @@
                             </h2>
                             <p> Записывайте занятия и возвращайтесь к ним когда угодно. <br>
                                 <br>
-                                Ученики всегда могут вернуться к прошлым урокам и повторить <br class="history__block__br">
+                                Ученики всегда могут вернуться к прошлым урокам и повторить <br
+                                    class="history__block__br">
                                 изученный материал.
                             </p>
                         </div>
                     </div>
                     <div class="col-12 col-md-7 col-lg-6 order-md-0">
                         <img class="history__img" src="public/past_classes.png" alt="">
-                    </div>  
+                    </div>
                 </div>
             </div>
         </section>
@@ -114,55 +151,58 @@
                 <h2>
                     Возможности
                 </h2>
-                <div class="row">
-                    <div class="col-6 col-lg-3">
-                        <div class="possibility__card-blue">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="possibility__card" id="blue">
                                 <img src="/public/communication.svg" alt="">
-                            <div class="possibility__card-name">
-                                Общение с классом
+                                <div class="possibility__card-name">
+                                    Общение с классом
+                                </div>
+                                <p>
+                                    Видеосвязь <br>
+                                    Чат с классом
+                                </p>
                             </div>
-                            <p>
-                                Видеосвязь <br>
-                                Чат с классом
-                            </p>
                         </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="possibility__card-orange">
+                        <div class="swiper-slide">
+                            <div class="possibility__card" id="orange">
                                 <img src="/public/lessons.svg" alt="">
-                            <div class="possibility__card-name">
-                                Проведение занятий
+                                <div class="possibility__card-name">
+                                    Проведение занятий
+                                </div>
+                                <p>
+                                    Презентация файлов <br>
+                                    Демонстрация экрана
+                                </p>
                             </div>
-                            <p>
-                                Презентация файлов <br>
-                                Демонстрация экрана
-                            </p>
                         </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="possibility__card-blue">
+                        <div class="swiper-slide">
+                            <div class="possibility__card" id="blue">
                                 <img src="/public/attendance.svg" alt="">
-                            <div class="possibility__card-name">
-                                Посещаемость
+                                <div class="possibility__card-name">
+                                    Посещаемость
+                                </div>
+                                <p>
+                                    Автоматическое <br>
+                                    отслеживание <br>
+                                    присутствующих
+                                </p>
                             </div>
-                            <p>
-                                Автоматическое <br>
-                                отслеживание <br>
-                                присутствующих
-                            </p>
                         </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="possibility__card-orange">
+                        <div class="swiper-slide">
+                            <div class="possibility__card" id="orange">
                                 <img src="/public/history.svg" alt="">
-                            <div class="possibility__card-name">
-                                История занятий
+                                <div class="possibility__card-name">
+                                    История занятий
+                                </div>
+                                <p>
+                                    Материалы урока
+                                </p>
                             </div>
-                            <p>
-                             Материалы урока
-                            </p>
                         </div>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -268,5 +308,8 @@
             </div>
         </div>
     </footer>
+    <script src="swiper.js"></script>
+    <script defer src="menu.js"></script>
 </body>
+
 </html>
