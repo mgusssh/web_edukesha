@@ -12196,20 +12196,20 @@ body {
   }
 }
 @media screen and (max-width: 576px) {
-  .servis .servis__block .servis__block__button {
+  .servis .servis__block .block__button-group {
     display: grid;
   }
 }
-.servis .servis__block .servis__block__button .button-primary {
+.servis .servis__block .block__button-group .button-primary {
   margin-right: 20px;
 }
 @media screen and (max-width: 576px) {
-  .servis .servis__block .servis__block__button .button-primary {
+  .servis .servis__block .block__button-group .button-primary {
     margin-right: 0;
     margin-bottom: 8px;
   }
 }
-.servis .servis__block .servis__block__button .button-primary-outline {
+.servis .servis__block .block__button-group .button-primary-outline {
   font-size: 16px;
   padding: 14px 30px;
   border-radius: 10px;
@@ -12218,37 +12218,37 @@ body {
   border: 1px solid rgb(64, 71, 226);
 }
 @media screen and (max-width: 1199px) {
-  .servis .servis__block .servis__block__button .button-primary-outline {
+  .servis .servis__block .block__button-group .button-primary-outline {
     padding: 5px 30px;
   }
 }
-.servis .servis__block .servis__block__button .button-primary-outline .play__img {
+.servis .servis__block .block__button-group .button-primary-outline .play__img {
   margin-right: 10px;
 }
-.servis .servis__block .servis__block__button .button-primary-outline:hover {
+.servis .servis__block .block__button-group .button-primary-outline:hover {
   box-shadow: 0 0 10px 0 rgba(24, 27, 89, 0.2);
 }
-.servis .servis__img {
+.servis .servis__img-block {
   border-radius: 10px;
   max-width: 100%;
 }
 @media screen and (max-width: 991px) {
-  .servis .servis__img {
+  .servis .servis__img-block {
     width: 720px;
     display: block;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 576px) {
-  .servis .servis__img {
+  .servis .servis__img-block {
     display: none;
   }
 }
-.servis .servis__mobail__img {
+.servis .servis__img-mobail {
   display: none;
 }
 @media screen and (max-width: 576px) {
-  .servis .servis__mobail__img {
+  .servis .servis__img-mobail {
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -12285,7 +12285,7 @@ body {
   margin-bottom: 28px;
 }
 @media screen and (max-width: 1399px) {
-  .tutorials .tutorials__block .tutorials__block__br {
+  .tutorials .tutorials__block .tutorials__br {
     display: none;
   }
 }
@@ -12328,7 +12328,7 @@ body {
   margin-bottom: 15px;
 }
 @media screen and (max-width: 1399px) {
-  .history .history__block .history__block__br {
+  .history .history__block .history__br {
     display: none;
   }
 }
@@ -12439,12 +12439,12 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
-  .work .work__card .work__card__br {
+  .work .work__card .work__br {
     display: none;
   }
 }
 @media screen and (max-width: 576px) {
-  .work .work__card .work__card__br {
+  .work .work__card .work__br {
     display: block;
   }
 }
@@ -12487,7 +12487,7 @@ body {
   color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 767px) {
-  .distance .distance__card .distance__card-text .distance__card-text__br {
+  .distance .distance__card .distance__card-text .distance__br {
     display: none;
   }
 }
@@ -12518,11 +12518,11 @@ body {
     flex-direction: column;
   }
 }
-.footer .footer__company .footer__fund__img {
+.footer .footer__company .footer__img-fund {
   width: 200px;
 }
 @media screen and (max-width: 767px) {
-  .footer .footer__company .footer__fund__img {
+  .footer .footer__company .footer__img-fund {
     margin-top: 35px;
   }
 }
@@ -12537,21 +12537,21 @@ body {
     flex-direction: column;
   }
 }
-.footer .footer__information .footer__information__sreet,
-.footer .footer__information .footer__information__copyright {
+.footer .footer__information .footer__information-sreet,
+.footer .footer__information .footer__information-copyright {
   font-size: 16px;
   font-weight: 400;
   line-height: 18.96px;
   color: rgb(143, 153, 172);
 }
 @media screen and (max-width: 767px) {
-  .footer .footer__information .footer__information__sreet,
-  .footer .footer__information .footer__information__copyright {
+  .footer .footer__information .footer__information-sreet,
+  .footer .footer__information .footer__information-copyright {
     text-align: center;
   }
 }
 @media screen and (max-width: 767px) {
-  .footer .footer__information .footer__information__sreet {
+  .footer .footer__information .footer__information-sreet {
     margin-bottom: 33px;
   }
 }

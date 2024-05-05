@@ -17,7 +17,7 @@
             flex-direction: column;
         }
     
-        .footer__fund__img{
+        .footer__img-fund{
             width: 200px;
 
             @media screen and (max-width: 767px){
@@ -36,8 +36,8 @@
             flex-direction: column;
         }
      
-        .footer__information__sreet,
-        .footer__information__copyright{
+        .footer__information-sreet,
+        .footer__information-copyright{
         font-size: 16px;
         font-weight: 400;
         line-height: 18.96px;
@@ -48,7 +48,7 @@
             }
         }
 
-        .footer__information__sreet{
+        .footer__information-sreet{
             @media screen and (max-width: 767px){
                 margin-bottom: 33px;
             }
